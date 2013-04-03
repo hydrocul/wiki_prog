@@ -1,0 +1,8 @@
+#!/bin/sh
+
+home=`dirname $0`
+home=`dirname $home`
+cd $home/data
+
+ack-grep -i --color --group -A 2 -B 2 --type=markdown "$1" | less -X -F -R
+

@@ -1,0 +1,10 @@
+/.bundle
+/data/*
+/private/*
+/public/*
+/etc/templates/private.html
+/etc/templates/public.html
+
+!.gitempty
+
+
