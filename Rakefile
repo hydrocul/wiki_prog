@@ -23,7 +23,7 @@ task :rebuild => [:clobber, :build]
 
 desc "publish html files for public and private"
 task :publish => [:publish_public, :publish_private] do
-  sh 'sh bin/publish.sh'
+  sh 'sh bin/data_push.sh'
 end
 
 desc "publish html files for public"
